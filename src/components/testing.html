@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourify - Interactive Map of India</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+        }
+
+        #map {
+            flex: 2;
+            height: 100%;
+        }
+
+        #info-panel {
+            flex: 1;
+            padding: 20px;
+            background-color: #1e1e1e;
+            overflow-y: auto;
+            display: none;
+        }
+
+        h2 {
+            color: #bb86fc;
+            margin-top: 0;
+        }
+
+        .place-card {
+            background-color: #2c2c2c;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .place-card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .place-card h3 {
+            color: #03dac6;
+            margin: 0 0 10px 0;
+        }
+
+        .place-card p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="info-panel"></div>
+
+    <script>
+        let map;
+        const locations = [
+            { name: "Taj Mahal, Agra", lat: 27.1751, lon: 78.0421, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/640px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg", description: "Iconic white marble mausoleum and UNESCO World Heritage site." },
+            { name: "Jaipur, Rajasthan", lat: 26.9124, lon: 75.7873, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Jaipur_03-2016_05_Pink_City_Palace_complex.jpg/640px-Jaipur_03-2016_05_Pink_City_Palace_complex.jpg", description: "The 'Pink City' known for its stunning architecture and royal history." },
+            { name: "Varanasi, Uttar Pradesh", lat: 25.3176, lon: 82.9739, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Varanasi_Ganges.jpg/640px-Varanasi_Ganges.jpg", description: "Ancient city on the banks of the Ganges, known for its spiritual significance." },
+            { name: "Goa Beaches", lat: 15.2993, lon: 74.1240, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Goa._Benaulim_Beach.jpg/640px-Goa._Benaulim_Beach.jpg", description: "Famous for its beautiful beaches, nightlife, and Portuguese-influenced architecture." },
+            { name: "Kerala Backwaters", lat: 9.4981, lon: 76.3388, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Scenery_of_Backwaters_Alappuzha21.jpg/640px-Scenery_of_Backwaters_Alappuzha21.jpg", description: "Network of lagoons, lakes, and canals parallel to the Arabian Sea coast." },
+            { name: "Amritsar, Punjab", lat: 31.6340, lon: 74.8723, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/The_Golden_Temple_of_Amritsar_03.jpg/640px-The_Golden_Temple_of_Amritsar_03.jpg", description: "Home to the Golden Temple, the spiritual center of the Sikh religion." },
+            { name: "Ladakh", lat: 34.2268, lon: 77.5619, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Ladakh_2015_001.JPG/640px-Ladakh_2015_001.JPG", description: "Known for its remote mountain beauty, Buddhist culture, and adventure tourism." },
+            { name: "Hampi, Karnataka", lat: 15.3350, lon: 76.4600, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Hampi_karnataka.jpg/640px-Hampi_karnataka.jpg", description: "Ancient village with ruins of the Vijayanagara Empire, a UNESCO World Heritage site." },
+            { name: "Udaipur, Rajasthan", lat: 24.5854, lon: 73.7125, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Udaipur_Palace_and_Lake.jpg/640px-Udaipur_Palace_and_Lake.jpg", description: "City of lakes, known for its lavish royal residences and romantic setting." },
+            { name: "Ellora Caves, Maharashtra", lat: 20.0258, lon: 75.1780, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kailasanatha_Temple%2C_Ellora%2C_India.jpg/640px-Kailasanatha_Temple%2C_Ellora%2C_India.jpg", description: "UNESCO World Heritage site with rock-cut temples showcasing Indian sculpture." },
+            { name: "Rann of Kutch, Gujarat", lat: 23.8343, lon: 69.8380, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Rann_of_Kutch.jpg/640px-Rann_of_Kutch.jpg", description: "Seasonal salt marsh in the Thar Desert known for its white sands and cultural festivals." },
+            { name: "Darjeeling, West Bengal", lat: 27.0410, lon: 88.2663, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Darjeeling%2C_West_Bengal.jpg/640px-Darjeeling%2C_West_Bengal.jpg", description: "Hill station famous for its tea plantations and views of the Himalayas." },
+            { name: "Khajuraho, Madhya Pradesh", lat: 24.8520, lon: 79.9199, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Western_Group_of_Temples%2C_Khajuraho.jpg/640px-Western_Group_of_Temples%2C_Khajuraho.jpg", description: "Known for its ancient temples with intricate sculptures, a UNESCO World Heritage site." },
+            { name: "Sundarbans, West Bengal", lat: 21.9497, lon: 89.1833, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Sundarban_Tiger.jpg/640px-Sundarban_Tiger.jpg", description: "Largest mangrove forest in the world, home to the Bengal tiger." },
+            { name: "Mysore, Karnataka", lat: 12.2958, lon: 76.6394, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mysore_Palace_Morning.JPG/640px-Mysore_Palace_Morning.JPG", description: "City of palaces, famous for its grand Mysore Palace and Dasara festival." },
+            { name: "Ajanta Caves, Maharashtra", lat: 20.5519, lon: 75.7033, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Buddhist_Monuments_at_Ajanta_Caves.jpg/640px-Buddhist_Monuments_at_Ajanta_Caves.jpg", description: "Rock-cut Buddhist cave monuments dating from the 2nd century BCE." },
+            { name: "Rishikesh, Uttarakhand", lat: 30.0869, lon: 78.2676, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Laxman_Jhula_Bridge%2C_Rishikesh.jpg/640px-Laxman_Jhula_Bridge%2C_Rishikesh.jpg", description: "Yoga capital of the world, situated on the banks of the Ganges River." },
+            { name: "Andaman Islands", lat: 11.7401, lon: 92.6586, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Andaman_Islands_topographic_map-en.svg/640px-Andaman_Islands_topographic_map-en.svg.png", description: "Archipelago in the Bay of Bengal known for its pristine beaches and marine life." },
+            { name: "Mahabalipuram, Tamil Nadu", lat: 12.6269, lon: 80.1927, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Shore_temple_at_mahabalipuram.jpg/640px-Shore_temple_at_mahabalipuram.jpg", description: "Ancient port city known for its stone-carved temples and monuments." },
+            { name: "Kaziranga National Park, Assam", lat: 26.5844, lon: 93.1703, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Close_up_of_a_baby_rhino_in_India.jpg/640px-Close_up_of_a_baby_rhino_in_India.jpg", description: "Home to two-thirds of the world's great one-horned rhinoceroses." }
+        ];
+
+        function initMap() {
+            map = L.map('map').setView([20.5937, 78.9629], 5);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+            locations.forEach(location => {
+                L.marker([location.lat, location.lon]).addTo(map)
+                    .bindPopup(location.name)
+                    .on('click', () => showPlace(location));
+            });
+        }
+
+        function showPlace(location) {
+            const infoPanel = document.getElementById('info-panel');
+            infoPanel.style.display = 'block';
+            infoPanel.innerHTML = `
+                <div class="place-card">
+                    <h2>${location.name}</h2>
+                    <img src="${location.image}" alt="${location.name}">
+                    <p>${location.description}</p>
+                </div>
+            `;
+        }
+
+        window.onload = initMap;
+    </script>
+</body>
+</html>

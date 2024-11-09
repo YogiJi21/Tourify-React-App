@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+.Second_page{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+    color: rgba(255,255,255,.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aanchu{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* filter: brightness(60%); */
+    top: 0;
+    background: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)),
+    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+    url('./image/page2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100;
+}
+.mainmenu{
+    z-index: 101;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Second_page h4{
+    font-family: "Mansalva", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+}
+.Second_page h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.services{
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.service_options{
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 1rem;
+}

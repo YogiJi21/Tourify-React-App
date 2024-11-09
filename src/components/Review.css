@@ -1,0 +1,63 @@
+.reviewbox{
+    width: 80%;
+    margin: auto;
+    color: rgba(255,255,255,.7);
+    /* background-color: #212529; */
+}
+.reviewbox h3{
+    text-align: center;
+    color: #29d9d5;
+    /* font-size: 2.7rem; */
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.reviewbox h1{
+    text-align: center;
+    /* margin: 2rem 0; */
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.custreviews{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 2px solid white; */
+    
+}
+.cust_rbox{
+    /* border: 2px solid purple; */
+    display: grid;
+    border-radius: 10px;
+    background-color: #17171a8e;
+    grid-template-columns: 80% 20%;
+}
+.cust_rbox1{
+    /* border: 2px solid purple; */
+    border-radius: 10px;
+    display: grid;
+    background-color: #17171a8e;
+    grid-template-columns: 20% 80%;
+}
+.cust_rbox .lpart,.cust_rbox1 .lpart{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+}
+.cust_rbox .rpart,.cust_rbox1 .rpart{
+    display: flex;  
+    justify-content: center; 
+}
+.cust_rbox .rpart img,.cust_rbox1 .rpart img{
+    border-radius: 50%;
+}
+.cust_rbox h5,.cust_rbox1 h5{
+    color: brown;
+}
+.cust_rbox>.lpart>div,.cust_rbox1>.lpart>div
+{
+    color: yellow;
+    font-size: 1.5rem;
+}

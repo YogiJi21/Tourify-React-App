@@ -1,0 +1,15 @@
+.tgallery h5{
+    text-align: center;
+    color: #29d9d5;
+    font-size: 2.7rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 3rem 0;
+}
+.tgallery h1{
+    text-align: center;
+    margin: 2rem 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: rgba(255,255,255,.7);
+}

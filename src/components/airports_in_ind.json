@@ -1,0 +1,1047 @@
+{
+    "Kadapa": {
+        "Airport Name": "Kadapa Airport",
+        "IATA Code": "CDP",
+        "ICAO Code": "VOCP"
+    },
+    "Donakonda": {
+        "Airport Name": "Donakonda Airport",
+        "IATA Code": "",
+        "ICAO Code": "VODK"
+    },
+    "Kurnool": {
+        "Airport Name": "Uyyalawada Narasimha Reddy Airport",
+        "IATA Code": "KJB",
+        "ICAO Code": "VOKU"
+    },
+    "Puttaparthi": {
+        "Airport Name": "Sri Sathya Sai Airport",
+        "IATA Code": "PUT",
+        "ICAO Code": "VOPN"
+    },
+    "Rajahmundry": {
+        "Airport Name": "Rajahmundry Airport",
+        "IATA Code": "RJA",
+        "ICAO Code": "VORY"
+    },
+    "Tirupati": {
+        "Airport Name": "Tirupati International Airport",
+        "IATA Code": "TIR",
+        "ICAO Code": "VOTP"
+    },
+    "Vijayawada": {
+        "Airport Name": "Vijayawada International Airport",
+        "IATA Code": "VGA",
+        "ICAO Code": "VOBZ"
+    },
+    "Visakhapatnam": {
+        "Airport Name": "Visakhapatnam International Airport",
+        "IATA Code": "VTZ",
+        "ICAO Code": "VOVZ"
+    },
+    "Daporijo": {
+        "Airport Name": "Daporijo Airport",
+        "IATA Code": "DEP",
+        "ICAO Code": "VEDZ"
+    },
+    "Itanagar": {
+        "Airport Name": "Donyi Polo Airport",
+        "IATA Code": "HGI",
+        "ICAO Code": "VEHO"
+    },
+    "Pasighat": {
+        "Airport Name": "Pasighat Airport",
+        "IATA Code": "IXT",
+        "ICAO Code": "VEPG"
+    },
+    "Tezu": {
+        "Airport Name": "Tezu Airport",
+        "IATA Code": "TEI",
+        "ICAO Code": "VETJ"
+    },
+    "Ziro": {
+        "Airport Name": "Ziro Airport",
+        "IATA Code": "ZER",
+        "ICAO Code": "VEZO"
+    },
+    "Dhubri": {
+        "Airport Name": "Rupsi Airport",
+        "IATA Code": "RUP",
+        "ICAO Code": "VERU"
+    },
+    "Dibrugarh": {
+        "Airport Name": "Dibrugarh Airport",
+        "IATA Code": "DIB",
+        "ICAO Code": "VEMN"
+    },
+    "Guwahati": {
+        "Airport Name": "Lokpriya Gopinath Bordoloi International Airport",
+        "IATA Code": "GAU",
+        "ICAO Code": "VEGT"
+    },
+    "Jorhat": {
+        "Airport Name": "Jorhat Airport",
+        "IATA Code": "JRH",
+        "ICAO Code": "VEJT"
+    },
+    "North Lakhimpur": {
+        "Airport Name": "Lilabari Airport",
+        "IATA Code": "IXI",
+        "ICAO Code": "VELR"
+    },
+    "Silchar": {
+        "Airport Name": "Silchar Airport",
+        "IATA Code": "IXS",
+        "ICAO Code": "VEKU"
+    },
+    "Tezpur": {
+        "Airport Name": "Tezpur Airport",
+        "IATA Code": "TEZ",
+        "ICAO Code": "VETZ"
+    },
+    "Darbhanga": {
+        "Airport Name": "Darbhanga Airport",
+        "IATA Code": "DBR",
+        "ICAO Code": "VEDH"
+    },
+    "Gaya": {
+        "Airport Name": "Gaya Airport",
+        "IATA Code": "GAY",
+        "ICAO Code": "VEGY"
+    },
+    "Purnia": {
+        "Airport Name": "Purnia Airport",
+        "IATA Code": "",
+        "ICAO Code": "VEPU"
+    },
+    "Muzaffarpur": {
+        "Airport Name": "Muzaffarpur Airport",
+        "IATA Code": "MZU",
+        "ICAO Code": "VEMZ"
+    },
+    "Patna": {
+        "Airport Name": "Jay Prakash Narayan Airport",
+        "IATA Code": "PAT",
+        "ICAO Code": "VEPT"
+    },
+    "Raxaul": {
+        "Airport Name": "Raxaul Airport",
+        "IATA Code": "",
+        "ICAO Code": "VERL"
+    },
+    "Raipur": {
+        "Airport Name": "Swami Vivekananda Airport",
+        "IATA Code": "RPR",
+        "ICAO Code": "VERP"
+    },
+    "Bilaspur": {
+        "Airport Name": "Bilaspur Airport",
+        "IATA Code": "PAB",
+        "ICAO Code": "VEBU"
+    },
+    "Jagdalpur": {
+        "Airport Name": "Jagdalpur Airport",
+        "IATA Code": "JGB",
+        "ICAO Code": "VEJR"
+    },
+    "Ambikapur": {
+        "Airport Name": "Ambikapur Airport",
+        "IATA Code": "",
+        "ICAO Code": "VEAP"
+    },
+    "Raigarh": {
+        "Airport Name": "Raigarh Airport",
+        "IATA Code": "",
+        "ICAO Code": "VERH"
+    },
+    "Korba": {
+        "Airport Name": "Korba Airport",
+        "IATA Code": "",
+        "ICAO Code": "IN-0026"
+    },
+    "Dabolim": {
+        "Airport Name": "Dabolim Airport",
+        "IATA Code": "GOI",
+        "ICAO Code": "VOGO"
+    },
+    "Mopa": {
+        "Airport Name": "Manohar International Airport",
+        "IATA Code": "GOX",
+        "ICAO Code": "VOGA"
+    },
+    "Ahmedabad": {
+        "Airport Name": "Sardar Vallabhbhai Patel International Airport",
+        "IATA Code": "AMD",
+        "ICAO Code": "VAAH"
+    },
+    "Amreli": {
+        "Airport Name": "Amreli Airport",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Bhavnagar": {
+        "Airport Name": "Bhavnagar Airport",
+        "IATA Code": "BHU",
+        "ICAO Code": "VABV"
+    },
+    "Bhuj": {
+        "Airport Name": "Bhuj Airport",
+        "IATA Code": "BHJ",
+        "ICAO Code": "VABJ"
+    },
+    "Deesa": {
+        "Airport Name": "Deesa Airport",
+        "IATA Code": "",
+        "ICAO Code": "VADS"
+    },
+    "Jamnagar": {
+        "Airport Name": "Jamnagar Airport",
+        "IATA Code": "JGA",
+        "ICAO Code": "VAJM"
+    },
+    "Junagadh": {
+        "Airport Name": "Keshod Airport",
+        "IATA Code": "IXK",
+        "ICAO Code": "VAKS"
+    },
+    "Kandla": {
+        "Airport Name": "Kandla Airport",
+        "IATA Code": "IXY",
+        "ICAO Code": "VAKE"
+    },
+    "Mundra": {
+        "Airport Name": "Mundra Airport",
+        "IATA Code": "",
+        "ICAO Code": "VAMA"
+    },
+    "Mithapur": {
+        "Airport Name": "Mithapur Airstrip",
+        "IATA Code": "",
+        "ICAO Code": "IN-0106"
+    },
+    "Porbandar": {
+        "Airport Name": "Porbandar Airport",
+        "IATA Code": "PBD",
+        "ICAO Code": "VAPR"
+    },
+    "Rajkot": {
+        "Airport Name": "Rajkot International Airport",
+        "IATA Code": "HSR",
+        "ICAO Code": "VAHS"
+    },
+    "Rajkot Airport": {
+        "Airport Name": "RAJ",
+        "IATA Code": "VARK",
+        "ICAO Code": "Domestic"
+    },
+    "Surat": {
+        "Airport Name": "Surat International Airport[8]",
+        "IATA Code": "STV",
+        "ICAO Code": "VASU"
+    },
+    "Vadodara": {
+        "Airport Name": "Vadodara Airport",
+        "IATA Code": "BDQ",
+        "ICAO Code": "VABO"
+    },
+    "Hisar": {
+        "Airport Name": "Hisar Airport",
+        "IATA Code": "HSS",
+        "ICAO Code": "VIHR"
+    },
+    "Kangra": {
+        "Airport Name": "Kangra Airport",
+        "IATA Code": "DHM",
+        "ICAO Code": "VIGG"
+    },
+    "Kullu-Manali": {
+        "Airport Name": "Kullu\u2013Manali Airport",
+        "IATA Code": "KUU",
+        "ICAO Code": "VIBR"
+    },
+    "Shimla": {
+        "Airport Name": "Shimla Airport",
+        "IATA Code": "SLV",
+        "ICAO Code": "VISM"
+    },
+    "Bokaro": {
+        "Airport Name": "Bokaro Airport",
+        "IATA Code": "",
+        "ICAO Code": "VEBK"
+    },
+    "Deoghar": {
+        "Airport Name": "Deoghar Airport",
+        "IATA Code": "DGH",
+        "ICAO Code": "VEDO"
+    },
+    "Dumka": {
+        "Airport Name": "Dumka Airport",
+        "IATA Code": "",
+        "ICAO Code": "VEDK"
+    },
+    "Jamshedpur": {
+        "Airport Name": "Chakulia Airport",
+        "IATA Code": "",
+        "ICAO Code": "VECK"
+    },
+    "Sonari Airport": {
+        "Airport Name": "IXW",
+        "IATA Code": "VEJS",
+        "ICAO Code": "State/Private"
+    },
+    "Dhalbhumgarh Airport": {
+        "Airport Name": "",
+        "IATA Code": "",
+        "ICAO Code": "State/Private"
+    },
+    "Ranchi": {
+        "Airport Name": "Birsa Munda Airport",
+        "IATA Code": "IXR",
+        "ICAO Code": "VERC"
+    },
+    "Belgavi": {
+        "Airport Name": "Belgavi Airport",
+        "IATA Code": "IXG",
+        "ICAO Code": "VOBM"
+    },
+    "Ballari": {
+        "Airport Name": "Jindal Vijaynagar Airport",
+        "IATA Code": "VDY",
+        "ICAO Code": "VOJV"
+    },
+    "Bengaluru": {
+        "Airport Name": "Kempegowda International Airport",
+        "IATA Code": "BLR",
+        "ICAO Code": "VOBL"
+    },
+    "HAL Airport": {
+        "Airport Name": "",
+        "IATA Code": "VOBG",
+        "ICAO Code": "State/Private"
+    },
+    "Bidar": {
+        "Airport Name": "Bidar Airport",
+        "IATA Code": "IXX",
+        "ICAO Code": "VOBR"
+    },
+    "Hubli": {
+        "Airport Name": "Hubli Airport",
+        "IATA Code": "HBX",
+        "ICAO Code": "VOHB"
+    },
+    "Kalaburagi": {
+        "Airport Name": "Kalaburagi Airport",
+        "IATA Code": "GBI",
+        "ICAO Code": "VOGB"
+    },
+    "Koppal": {
+        "Airport Name": "Baldota Airport",
+        "IATA Code": "",
+        "ICAO Code": "VOKP"
+    },
+    "Mangaluru": {
+        "Airport Name": "Mangalore International Airport",
+        "IATA Code": "IXE",
+        "ICAO Code": "VOML"
+    },
+    "Mysuru": {
+        "Airport Name": "Mysore Airport",
+        "IATA Code": "MYQ",
+        "ICAO Code": "VOMY"
+    },
+    "Shivamogga": {
+        "Airport Name": "Kuvempu Airport",
+        "IATA Code": "RQY",
+        "ICAO Code": "VOSH"
+    },
+    "Kannur": {
+        "Airport Name": "Kannur International Airport",
+        "IATA Code": "CNN",
+        "ICAO Code": "VOKN"
+    },
+    "Kasaragod": {
+        "Airport Name": "Bekal Airport",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Kochi/Thrissur": {
+        "Airport Name": "Cochin International Airport",
+        "IATA Code": "COK",
+        "ICAO Code": "VOCI"
+    },
+    "Kottayam/Pathanamthitta": {
+        "Airport Name": "Sabarimala International Greenfield Airport",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Kollam": {
+        "Airport Name": "Quilon Aerodrome",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Kozhikode/Malappuram": {
+        "Airport Name": "Thiruvambady International Airport",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Thiruvananthapuram": {
+        "Airport Name": "Thiruvananthapuram International Airport",
+        "IATA Code": "TRV",
+        "ICAO Code": "VOTV"
+    },
+    "Bhopal": {
+        "Airport Name": "Raja Bhoj Airport",
+        "IATA Code": "BHO",
+        "ICAO Code": "VABP"
+    },
+    "Gwalior": {
+        "Airport Name": "Rajmata Vijaya Raje Scindia Airport",
+        "IATA Code": "GWL",
+        "ICAO Code": "VIGR"
+    },
+    "Indore": {
+        "Airport Name": "Devi Ahilyabai Holkar International Airport",
+        "IATA Code": "IDR",
+        "ICAO Code": "VAID"
+    },
+    "Jabalpur": {
+        "Airport Name": "Jabalpur Airport",
+        "IATA Code": "JLR",
+        "ICAO Code": "VAJB"
+    },
+    "Khajuraho": {
+        "Airport Name": "Khajuraho Airport",
+        "IATA Code": "HJR",
+        "ICAO Code": "VAKJ"
+    },
+    "Khandwa": {
+        "Airport Name": "Khandwa Airport",
+        "IATA Code": "",
+        "ICAO Code": "VAKD"
+    },
+    "Nagda": {
+        "Airport Name": "Birlagram Airport",
+        "IATA Code": "",
+        "ICAO Code": "VA1C"
+    },
+    "Panna": {
+        "Airport Name": "Panna Airport",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Satna": {
+        "Airport Name": "Satna Airport",
+        "IATA Code": "TNI",
+        "ICAO Code": "VIST"
+    },
+    "Akola": {
+        "Airport Name": "Akola Airport",
+        "IATA Code": "AKD",
+        "ICAO Code": "VAAK"
+    },
+    "Aurangabad": {
+        "Airport Name": "Aurangabad Airport",
+        "IATA Code": "IXU",
+        "ICAO Code": "VAAU"
+    },
+    "Baramati": {
+        "Airport Name": "Baramati Airport",
+        "IATA Code": "",
+        "ICAO Code": "IN-0024"
+    },
+    "Gondia": {
+        "Airport Name": "Gondia Airport",
+        "IATA Code": "GDB",
+        "ICAO Code": "VAGD"
+    },
+    "Jalgaon": {
+        "Airport Name": "Jalgaon Airport",
+        "IATA Code": "JLG",
+        "ICAO Code": "VAJL"
+    },
+    "Kolhapur": {
+        "Airport Name": "Kolhapur Airport",
+        "IATA Code": "KLH",
+        "ICAO Code": "VAKP"
+    },
+    "Latur": {
+        "Airport Name": "Latur Airport",
+        "IATA Code": "LTU",
+        "ICAO Code": "VOLT"
+    },
+    "Mumbai": {
+        "Airport Name": "Chhatrapati Shivaji Maharaj International Airport",
+        "IATA Code": "BOM",
+        "ICAO Code": "VABB"
+    },
+    "Juhu Aerodrome": {
+        "Airport Name": "",
+        "IATA Code": "VAJJ",
+        "ICAO Code": "Domestic"
+    },
+    "Nagpur": {
+        "Airport Name": "Dr. Babasaheb Ambedkar International Airport",
+        "IATA Code": "NAG",
+        "ICAO Code": "VANP"
+    },
+    "Nanded": {
+        "Airport Name": "Shri Guru Gobind Singh Ji Airport",
+        "IATA Code": "NDC",
+        "ICAO Code": "VAND"
+    },
+    "Nashik": {
+        "Airport Name": "Nashik International Airport",
+        "IATA Code": "ISK",
+        "ICAO Code": "VAOZ"
+    },
+    "Navi Mumbai": {
+        "Airport Name": "Navi Mumbai International Airport",
+        "IATA Code": "NMI",
+        "ICAO Code": "-"
+    },
+    "Osmanabad": {
+        "Airport Name": "Osmanabad Airport",
+        "IATA Code": "OMN",
+        "ICAO Code": "IN-0375"
+    },
+    "Pune": {
+        "Airport Name": "Pune International Airport",
+        "IATA Code": "PNQ",
+        "ICAO Code": "VAPO"
+    },
+    "Ratnagiri": {
+        "Airport Name": "Ratnagiri Airport",
+        "IATA Code": "RTC",
+        "ICAO Code": "VARG"
+    },
+    "Shirdi": {
+        "Airport Name": "Shirdi Airport",
+        "IATA Code": "SAG",
+        "ICAO Code": "VASD"
+    },
+    "Solapur": {
+        "Airport Name": "Solapur Airport",
+        "IATA Code": "SSE",
+        "ICAO Code": "VASL"
+    },
+    "Sindhudurg": {
+        "Airport Name": "Sindhudurg Airport",
+        "IATA Code": "SDW",
+        "ICAO Code": "VOSR"
+    },
+    "Yavatmal": {
+        "Airport Name": "Sant Gadge Baba Yavatmal Airport",
+        "IATA Code": "YTL",
+        "ICAO Code": "VA78"
+    },
+    "Imphal": {
+        "Airport Name": "Bir Tikendrajit International Airport",
+        "IATA Code": "IMF",
+        "ICAO Code": "VEIM"
+    },
+    "Shillong": {
+        "Airport Name": "Shillong Airport",
+        "IATA Code": "SHL",
+        "ICAO Code": "VEBI"
+    },
+    "Shella": {
+        "Airport Name": "Shella Airport",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Aizawl": {
+        "Airport Name": "Turial Airport",
+        "IATA Code": "",
+        "ICAO Code": "VEAZ"
+    },
+    "Lengpui Airport": {
+        "Airport Name": "AJL",
+        "IATA Code": "VELP",
+        "ICAO Code": "State/Private"
+    },
+    "Dimapur": {
+        "Airport Name": "Dimapur Airport",
+        "IATA Code": "DMU",
+        "ICAO Code": "VEMR"
+    },
+    "Angul": {
+        "Airport Name": "Savitri Jindal Airport",
+        "IATA Code": "",
+        "ICAO Code": "VEAL"
+    },
+    "Balangir": {
+        "Airport Name": "Tusura Airstrip",
+        "IATA Code": "",
+        "ICAO Code": "VETS"
+    },
+    "Barbil": {
+        "Airport Name": "Barbil Tonto Airstrip",
+        "IATA Code": "",
+        "ICAO Code": "VEBL"
+    },
+    "Berhampur": {
+        "Airport Name": "Berhampur Airport",
+        "IATA Code": "QBM",
+        "ICAO Code": "VEBM"
+    },
+    "Bhubaneswar": {
+        "Airport Name": "Biju Patnaik International Airport",
+        "IATA Code": "BBI",
+        "ICAO Code": "VEBS"
+    },
+    "Dhenkanal": {
+        "Airport Name": "Birasal Airstrip",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Jeypore": {
+        "Airport Name": "Jeypore Airport",
+        "IATA Code": "PYB",
+        "ICAO Code": "VEJP"
+    },
+    "Kendujhar": {
+        "Airport Name": "Raisuan Airstrip",
+        "IATA Code": "",
+        "ICAO Code": "VEKJ"
+    },
+    "Jharsuguda": {
+        "Airport Name": "Veer Surendra Sai Airport",
+        "IATA Code": "JRG",
+        "ICAO Code": "VEJH"
+    },
+    "Lanjigarh": {
+        "Airport Name": "Lanjigarh Airstrip",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Nuapada": {
+        "Airport Name": "Nuapada Airstrip",
+        "IATA Code": "",
+        "ICAO Code": "VENP"
+    },
+    "Padampur": {
+        "Airport Name": "Satibhata Airstrip",
+        "IATA Code": "",
+        "ICAO Code": "VEPP"
+    },
+    "Phulbani": {
+        "Airport Name": "Gudari Airstrip",
+        "IATA Code": "",
+        "ICAO Code": "VEPN"
+    },
+    "Puri": {
+        "Airport Name": "Puri International Airport",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Rairangpur": {
+        "Airport Name": "Rairangpur Airstrip",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Rourkela": {
+        "Airport Name": "Rourkela Airport",
+        "IATA Code": "RRK",
+        "ICAO Code": "VERK"
+    },
+    "Sambalpur": {
+        "Airport Name": "Hirakud Airstrip",
+        "IATA Code": "",
+        "ICAO Code": "VEHK"
+    },
+    "Utkela": {
+        "Airport Name": "Utkela Airport",
+        "IATA Code": "UKE",
+        "ICAO Code": "VEUK"
+    },
+    "Amritsar": {
+        "Airport Name": "Beas Airport",
+        "IATA Code": "",
+        "ICAO Code": "VIBS"
+    },
+    "Sri Guru Ram Dass Jee International Airport": {
+        "Airport Name": "ATQ",
+        "IATA Code": "VIAR",
+        "ICAO Code": "International"
+    },
+    "Bathinda": {
+        "Airport Name": "Bathinda Airport",
+        "IATA Code": "BUP",
+        "ICAO Code": "VIBT"
+    },
+    "Jalandhar": {
+        "Airport Name": "Adampur Airport",
+        "IATA Code": "AIP",
+        "ICAO Code": "VIAX"
+    },
+    "Ludhiana": {
+        "Airport Name": "Ludhiana Airport",
+        "IATA Code": "LUH",
+        "ICAO Code": "VILD"
+    },
+    "Pathankot": {
+        "Airport Name": "Pathankot Airport",
+        "IATA Code": "IXP",
+        "ICAO Code": "VIPK"
+    },
+    "Ajmer": {
+        "Airport Name": "Kishangarh Airport",
+        "IATA Code": "KQH",
+        "ICAO Code": "VIKG"
+    },
+    "Banasthali": {
+        "Airport Name": "Banasthali Airstrip",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Bikaner": {
+        "Airport Name": "Bikaner Airport",
+        "IATA Code": "BKB",
+        "ICAO Code": "VIBK"
+    },
+    "Jaipur": {
+        "Airport Name": "Jaipur International Airport",
+        "IATA Code": "JAI",
+        "ICAO Code": "VIJP"
+    },
+    "Jaisalmer": {
+        "Airport Name": "Jaisalmer Airport",
+        "IATA Code": "JSA",
+        "ICAO Code": "VIJR"
+    },
+    "Jodhpur": {
+        "Airport Name": "Jodhpur Airport",
+        "IATA Code": "JDH",
+        "ICAO Code": "VIJO"
+    },
+    "Kankroli": {
+        "Airport Name": "Kankroli Airstrip",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Kota": {
+        "Airport Name": "Kota Airport",
+        "IATA Code": "KTU",
+        "ICAO Code": "VIKO"
+    },
+    "Udaipur": {
+        "Airport Name": "Maharana Pratap Airport",
+        "IATA Code": "UDR",
+        "ICAO Code": "VAUD"
+    },
+    "Gangtok": {
+        "Airport Name": "Pakyong Airport",
+        "IATA Code": "PYG",
+        "ICAO Code": "VEPY"
+    },
+    "Chennai": {
+        "Airport Name": "Chennai International Airport",
+        "IATA Code": "MAA",
+        "ICAO Code": "VOMM"
+    },
+    "Coimbatore": {
+        "Airport Name": "Coimbatore International Airport",
+        "IATA Code": "CJB",
+        "ICAO Code": "VOCB"
+    },
+    "Hosur": {
+        "Airport Name": "Hosur Aerodrome",
+        "IATA Code": "",
+        "ICAO Code": "VO95"
+    },
+    "Madurai": {
+        "Airport Name": "Madurai Airport",
+        "IATA Code": "IXM",
+        "ICAO Code": "VOMD"
+    },
+    "Neyveli": {
+        "Airport Name": "Neyveli Airport",
+        "IATA Code": "NVY",
+        "ICAO Code": "VONY"
+    },
+    "Salem": {
+        "Airport Name": "Salem Airport",
+        "IATA Code": "SXV",
+        "ICAO Code": "VOSM"
+    },
+    "Thanjavur": {
+        "Airport Name": "Thanjavur Airport",
+        "IATA Code": "TJV",
+        "ICAO Code": "VOTJ"
+    },
+    "Thoothukkudi": {
+        "Airport Name": "Tuticorin Airport",
+        "IATA Code": "TCR",
+        "ICAO Code": "VOTK"
+    },
+    "Tiruchirappalli": {
+        "Airport Name": "Tiruchirappalli International Airport",
+        "IATA Code": "TRZ",
+        "ICAO Code": "VOTR"
+    },
+    "Vellore": {
+        "Airport Name": "Vellore Airport",
+        "IATA Code": "",
+        "ICAO Code": "VOVR"
+    },
+    "Hyderabad": {
+        "Airport Name": "Begumpet Airport",
+        "IATA Code": "BPM",
+        "ICAO Code": "VOHY"
+    },
+    "Rajiv Gandhi International Airport": {
+        "Airport Name": "HYD",
+        "IATA Code": "VOHS",
+        "ICAO Code": "International"
+    },
+    "Nadirgul Airfield": {
+        "Airport Name": "",
+        "IATA Code": "",
+        "ICAO Code": "Domestic"
+    },
+    "Warangal": {
+        "Airport Name": "Warangal Airport",
+        "IATA Code": "WGC",
+        "ICAO Code": "VOWA"
+    },
+    "Agartala": {
+        "Airport Name": "Maharaja Bir Bikram Airport",
+        "IATA Code": "IXA",
+        "ICAO Code": "VEAT"
+    },
+    "Kailashahar": {
+        "Airport Name": "Kailashahar Airport",
+        "IATA Code": "IXH",
+        "ICAO Code": "VEKR"
+    },
+    "Kamalpur": {
+        "Airport Name": "Kamalpur Airport",
+        "IATA Code": "IXQ",
+        "ICAO Code": "VEKN"
+    },
+    "Khowai": {
+        "Airport Name": "Khowai Airport",
+        "IATA Code": "IXN",
+        "ICAO Code": "VEKW"
+    },
+    "Agra": {
+        "Airport Name": "Agra Airport",
+        "IATA Code": "AGR",
+        "ICAO Code": "VIAG"
+    },
+    "Amethi": {
+        "Airport Name": "Fursatganj Airfield",
+        "IATA Code": "",
+        "ICAO Code": "VERB"
+    },
+    "Aligarh": {
+        "Airport Name": "Aligarh Airport",
+        "IATA Code": "HRH",
+        "ICAO Code": "VIAH"
+    },
+    "Ayodhya": {
+        "Airport Name": "Maharishi Valmiki International Airport[11]",
+        "IATA Code": "AYJ",
+        "ICAO Code": "VEAY"
+    },
+    "Azamgarh": {
+        "Airport Name": "Azamgarh Airport",
+        "IATA Code": "",
+        "ICAO Code": "VEAH"
+    },
+    "Bareilly": {
+        "Airport Name": "Bareilly Airport",
+        "IATA Code": "BEK",
+        "ICAO Code": "VIBY"
+    },
+    "Chitrakoot": {
+        "Airport Name": "Chitrakoot Airport",
+        "IATA Code": "",
+        "ICAO Code": "VECT"
+    },
+    "Ghaziabad": {
+        "Airport Name": "Hindon Airport",
+        "IATA Code": "HDO",
+        "ICAO Code": "VIDX"
+    },
+    "Ghazipur": {
+        "Airport Name": "Andhau Airstrip",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Gorakhpur": {
+        "Airport Name": "Gorakhpur Airport",
+        "IATA Code": "GOP",
+        "ICAO Code": "VEGK"
+    },
+    "Kanpur": {
+        "Airport Name": "Kanpur Civil Aerodrome",
+        "IATA Code": "",
+        "ICAO Code": "VICX"
+    },
+    "Kanpur Airport": {
+        "Airport Name": "KNU",
+        "IATA Code": "VIKA",
+        "ICAO Code": "Domestic (CE)"
+    },
+    "Kushinagar": {
+        "Airport Name": "Kushinagar International Airport",
+        "IATA Code": "KBK",
+        "ICAO Code": "VEKI"
+    },
+    "Lalitpur": {
+        "Airport Name": "Lalitpur Airport",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Lucknow": {
+        "Airport Name": "Chaudhary Charan Singh International Airport",
+        "IATA Code": "LKO",
+        "ICAO Code": "VILK"
+    },
+    "Meerut": {
+        "Airport Name": "Meerut Airport",
+        "IATA Code": "",
+        "ICAO Code": "VI2B"
+    },
+    "Moradabad": {
+        "Airport Name": "Moradabad Airport",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Prayagraj": {
+        "Airport Name": "Prayagraj Airport",
+        "IATA Code": "IXD",
+        "ICAO Code": "VEAB"
+    },
+    "Renukoot": {
+        "Airport Name": "Muirpur Airport",
+        "IATA Code": "",
+        "ICAO Code": "VU1D"
+    },
+    "Shravasti": {
+        "Airport Name": "Shravasti Airport",
+        "IATA Code": "",
+        "ICAO Code": "VISV"
+    },
+    "Varanasi": {
+        "Airport Name": "Lal Bahadur Shastri International Airport",
+        "IATA Code": "VNS",
+        "ICAO Code": "VEBN"
+    },
+    "Jewar": {
+        "Airport Name": "Noida International Airport",
+        "IATA Code": "DXN",
+        "ICAO Code": "VIND"
+    },
+    "Dehradun": {
+        "Airport Name": "Dehradun Airport",
+        "IATA Code": "DED",
+        "ICAO Code": "VIDN"
+    },
+    "Pantnagar": {
+        "Airport Name": "Pantnagar Airport",
+        "IATA Code": "PGH",
+        "ICAO Code": "VIPT"
+    },
+    "Pithoragarh": {
+        "Airport Name": "Pithoragarh Airport",
+        "IATA Code": "NNS",
+        "ICAO Code": "VIDF"
+    },
+    "Asansol": {
+        "Airport Name": "Asansol Airfield",
+        "IATA Code": "",
+        "ICAO Code": ""
+    },
+    "Burnpur Airport": {
+        "Airport Name": "",
+        "IATA Code": "VEBB",
+        "ICAO Code": "State/Private"
+    },
+    "Balurghat": {
+        "Airport Name": "Balurghat Airport",
+        "IATA Code": "RGH",
+        "ICAO Code": "VEBG"
+    },
+    "Cooch Behar": {
+        "Airport Name": "Cooch Behar Airport",
+        "IATA Code": "COH",
+        "ICAO Code": "VECO"
+    },
+    "Durgapur": {
+        "Airport Name": "Kazi Nazrul Islam Airport",
+        "IATA Code": "RDP",
+        "ICAO Code": "VEDG"
+    },
+    "Kolkata": {
+        "Airport Name": "Behala Airport",
+        "IATA Code": "",
+        "ICAO Code": "VEBA"
+    },
+    "Netaji Subhas Chandra Bose International Airport": {
+        "Airport Name": "CCU",
+        "IATA Code": "VECC",
+        "ICAO Code": "International"
+    },
+    "Malda": {
+        "Airport Name": "Malda Airport",
+        "IATA Code": "LDA",
+        "ICAO Code": "VEMH"
+    },
+    "Siliguri": {
+        "Airport Name": "Bagdogra International Airport",
+        "IATA Code": "IXB",
+        "ICAO Code": "VEBD"
+    },
+    "Port Blair": {
+        "Airport Name": "Veer Savarkar International Airport",
+        "IATA Code": "IXZ",
+        "ICAO Code": "VOPB"
+    },
+    "Chandigarh": {
+        "Airport Name": "Shaheed Bhagat Singh International Airport",
+        "IATA Code": "IXC",
+        "ICAO Code": "VICG"
+    },
+    "Diu": {
+        "Airport Name": "Diu Airport",
+        "IATA Code": "DIU",
+        "ICAO Code": "VADU"
+    },
+    "Delhi NCR": {
+        "Airport Name": "Indira Gandhi International Airport",
+        "IATA Code": "DEL",
+        "ICAO Code": "VIDP"
+    },
+    "Safdarjung Airport": {
+        "Airport Name": "",
+        "IATA Code": "VIDD",
+        "ICAO Code": "Domestic"
+    },
+    "Jammu": {
+        "Airport Name": "Jammu Airport",
+        "IATA Code": "IXJ",
+        "ICAO Code": "VIJU"
+    },
+    "Srinagar": {
+        "Airport Name": "Srinagar International Airport",
+        "IATA Code": "SXR",
+        "ICAO Code": "VISR"
+    },
+    "Leh": {
+        "Airport Name": "Kushok Bakula Rimpochee Airport",
+        "IATA Code": "IXL",
+        "ICAO Code": "VILH"
+    },
+    "Agatti Island": {
+        "Airport Name": "Agatti Airport",
+        "IATA Code": "AGX",
+        "ICAO Code": "VOAT"
+    },
+    "Puducherry": {
+        "Airport Name": "Puducherry Airport",
+        "IATA Code": "PNY",
+        "ICAO Code": "VOPC"
+    }
+}

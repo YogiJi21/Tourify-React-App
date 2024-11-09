@@ -1,0 +1,60 @@
+.foot {
+    background: 
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)),
+    url('./image/page2b.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;;
+    background-size: cover;
+    
+    /* border: 2px solid red; */
+  }
+  
+  .footer {
+    /* backdrop-filter: blur(10px); */
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .footer h1 {
+    color: orangered;
+  }
+  
+  .footer .btn-square {
+    border: 1px solid rgba(255, 255, 255, .3);
+    font-size: 1em;
+    color: rgba(255, 255, 255, .6);
+    line-height: 25px;
+    max-width: 48px;
+    transition: .3s ease-in-out;
+    padding: .5em 1em;
+  }
+  
+  .footer .btn-square:hover {
+    background-color: rgba(255, 255, 255, .1);
+    color: orangered;
+  }
+  
+  .footer .zep {
+    font-size: 1.2em;
+  }
+  
+  
+  .quick-links div {
+    display: flex;
+    flex-flow: column wrap;
+    /* border: 2px solid white; */
+  }
+  
+  .quick-links div a {
+    color: rgba(255, 255, 255, .5);
+    transition: .2s ease-in-out;
+  }
+  
+  .quick-links div a:hover {
+    color: orangered;
+    font-size: 1em;
+    font-weight: 700;
+  
+  }
