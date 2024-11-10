@@ -41,27 +41,6 @@ Start the development server:
 npm start
 ```
 
-## 📁 Project Structure
-
-```
-Tourify-React-App/
-├── src/
-│   ├── components/
-│   ├── App.js
-│   ├── App.css
-│   ├── App.test.js
-│   ├── index.js
-│   ├── index.css
-│   ├── logo.svg
-│   ├── reportWebVitals.js
-│   ├── setupTests.js
-│   └── Tesz.js
-├── public/
-├── node_modules/
-├── package.json
-├── package-lock.json
-└── README.md
-```
 
 ## 🛠️ Built With
 
